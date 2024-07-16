@@ -157,6 +157,7 @@ code {
   transition: all 0.2s;
   margin-left: 17rem;
   list-style: none;
+  margin-top: 1.9%;
 }
 
 .navbar ul li {

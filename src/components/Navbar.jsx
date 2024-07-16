@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-scroll";
+import rrr from "../img/rrr.png";
 
 function Navbar() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
+          <img src={rrr} style={{ width: "5%", marginTop: "0.5%" }} />
           <h1 className="logo">
             <Link spy={true} smooth={true} duration={1000} to="headerbg">
               <b> Abadi Charcoal</b>

@@ -37,7 +37,7 @@ const About = () => {
 
           <div className="col-md-6">
             <p className="main-title ">
-              About us
+              <b>About us</b>
               <br />
             </p>
             <b>WE ARE THE BEST SUPPLIER OF CHARCOAL BRIQUETTE</b>

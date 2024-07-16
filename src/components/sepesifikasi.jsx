@@ -5,6 +5,7 @@ import Detailbaru3 from "../img/Detailbaru3.png";
 import Detailbaru4 from "../img/Detailbaru4.png";
 import gleriiii from "../img/gleriiii.png";
 import box5 from "../img/box5.png";
+import konn from "../img/konn.jpg";
 //import Peking from "./peking";
 import ShippingDetail from "./ShippingDetail";
 const Gallery = () => {
@@ -51,10 +52,12 @@ const Gallery = () => {
         <img src={Detailbaru3} alt="Gambar 3" />
         <img src={Detailbaru4} alt="Gambar 4" />
       </div>
-      <img src={box5} style={{ width: "80%", marginTop: "10px" }} />
-      <img src={gleriiii} alt="Gambar 4" style={{ width: "100%" }} />
 
-      <ShippingDetail />
+      <div>
+        <img src={box5} style={{ width: "80%", marginTop: "10px" }} />
+        <img src={gleriiii} alt="Gambar 4" style={{ width: "100%" }} />
+        <ShippingDetail />
+      </div>
     </div>
   );
 };

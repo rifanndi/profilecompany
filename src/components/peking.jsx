@@ -21,7 +21,7 @@ const Peking = () => {
               </p>
               <p className="main-p" style={{ marginLeft: "10%" }}>
                 {" "}
-                Inner box / Brand box: 1, 2, 5 kg, inner plastic + Carton/brand
+                Inner box / Brand box: 1, 3, 5 kg, inner plastic + Carton/brand
                 box, full color printing + Master box 10kg Master box only: 10
                 kg, inner plastic, b/w printing or full color printing
               </p>
