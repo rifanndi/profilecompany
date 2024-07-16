@@ -42,7 +42,7 @@ function Navbar2() {
           <div style={styles.left}>
             <h3 style={styles.logo}>
               <Link to="/" style={styles.logo}>
-                ← Abadi Charcoal
+                ← learn more
               </Link>
             </h3>
           </div>

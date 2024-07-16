@@ -139,6 +139,12 @@ code {
   z-index: 2;
   backdrop-filter: blur(2px);
 }
+.img-responsive {
+  width: 5%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0.5%;
+}
 
 .navbar .logo {
   transition: all 0.2s;
@@ -556,13 +562,21 @@ ul li a {
     color: #fafafa;
     padding-top: 0;
   }
+  .img-responsive {
+    width: 10%;
+  }
 
   .burger {
     background-color: #fafafa;
   }
+
   .navbar {
     backdrop-filter: none;
     padding: 10px 0;
+  }
+
+  .navbar .row {
+    display: flex;
   }
   .navbar ul {
     backdrop-filter: blur(20px);

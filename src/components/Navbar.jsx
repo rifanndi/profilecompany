@@ -35,7 +35,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
-          <img src={rrr} style={{ width: "5%", marginTop: "0.5%" }} />
+          <img src={rrr} alt="Logo" className="img-responsive" />
           <h1 className="logo">
             <Link spy={true} smooth={true} duration={1000} to="headerbg">
               <b> Abadi Charcoal</b>
