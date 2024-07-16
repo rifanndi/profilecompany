@@ -1,4 +1,4 @@
-import custommodell from "../img/custommodell.png";
+import Abadicharcoall from "../img/Abadicharcoall.png";
 import Peking from "./peking";
 
 const Sesuai = () => {
@@ -27,7 +27,7 @@ const Sesuai = () => {
           <div className="">
             <img
               alt="about"
-              src={custommodell}
+              src={Abadicharcoall}
               className="img-fluid"
               style={{ width: "100%", marginLeft: "20%" }}
             />
