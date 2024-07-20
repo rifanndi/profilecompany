@@ -1,5 +1,5 @@
 import React from "react";
-import blog from "../img/blog.png";
+
 //import Lizard2 from "./components/konten1";
 //import Lizard1 from "./components/konten2";
 //import Lizard3 from "./components/konten3";
@@ -46,7 +46,7 @@ const MediaCard = () => {
     <div
       style={{
         backgroundColor: "black",
-        backgroundImage: `url(${blog})`,
+        backgroundImage: `url(${card1})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -59,7 +59,7 @@ const MediaCard = () => {
     >
       <Grid container spacing={3}>
         <div>
-          <div>
+          <div style={{ marginLeft: "10%" }}>
             <br />
             <h6 style={{ fontSize: "19px", color: "#d7a423" }}>
               <p style={{ fontSize: "16px", color: "#d7a423" }}>News Update</p>

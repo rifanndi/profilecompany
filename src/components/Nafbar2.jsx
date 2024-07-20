@@ -8,7 +8,6 @@ function Navbar2() {
       backgroundColor: "black", // Set background color to black
       position: "fixed",
       top: 0,
-      fontFamily: "'Permanent Marker', cursive",
       width: "100%",
       padding: "0.5rem",
       zIndex: 2,
@@ -42,7 +41,7 @@ function Navbar2() {
           <div style={styles.left}>
             <h3 style={styles.logo}>
               <Link to="/" style={styles.logo}>
-                ← learn more
+                ← Abadi Charcoal
               </Link>
             </h3>
           </div>
