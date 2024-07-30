@@ -50,6 +50,15 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
+                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
+                    >
+                      Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
                       href="https://twitter.com/burhankcadag0"
                     >
                       Twitter
@@ -62,6 +71,15 @@ function Footer() {
                       href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
                     >
                       Linkedin
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
+                    >
+                      Tik-Tok
                     </a>
                   </li>
                 </ul>

@@ -1,5 +1,7 @@
 import React from "react";
-import rifandi from "../img/rifandi.jpg";
+import hasbee from "../img/hasbee.png";
+import rifandi from "../img/rifandi.png";
+import umam from "../img/umam.png";
 import "./CompanyTeam.css"; // Pastikan untuk menambahkan CSS di sini
 
 function CompanyTeam() {
@@ -12,9 +14,9 @@ function CompanyTeam() {
 
         <div className="team-members">
           <div className="team-member">
-            <h2>Rifandi Annas S</h2>
+            <h2>Hasby Ilman Hafid</h2>
             <p>Chief Executive Officer</p>
-            <img src={rifandi} alt="CEO" className="team-member-image" />
+            <img src={hasbee} alt="CEO" className="team-member-image" />
             <p>
               <b>WE HIGHLY PROFESSIONAL</b>
               <br />
@@ -27,7 +29,7 @@ function CompanyTeam() {
           </div>
           <div className="team-member">
             <h2>Rifandi Annas S</h2>
-            <p>Chief Executive Officer</p>
+            <p> Chief Operating Officer</p>
             <img src={rifandi} alt="CEO" className="team-member-image" />
             <p>
               <b>WE HIGHLY PROFESSIONAL</b>
@@ -40,9 +42,9 @@ function CompanyTeam() {
             </p>
           </div>
           <div className="team-member">
-            <h2>Rifandi Annas S</h2>
-            <p>Chief Executive Officer</p>
-            <img src={rifandi} alt="CEO" className="team-member-image" />
+            <h2>Munaa Khoirul Umam</h2>
+            <p>Chief Financial Officer </p>
+            <img src={umam} alt="CEO" className="team-member-image" />
             <p>
               <b>WE HIGHLY PROFESSIONAL</b>
               <br />
@@ -123,9 +125,9 @@ function CompanyTeam() {
             <div className="contact-i" style={{ flex: 1 }}>
               <h3>Contact Us</h3>
               <p>
-                Phone: (123) 456-7890
+                Phone: 0852-1377-1747
                 <br />
-                Email: info@company.com
+                Email: suppot@AbadiCharcoal.com
               </p>
             </div>
           </div>
