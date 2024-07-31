@@ -13,70 +13,78 @@ function CompanyTeam() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: "1px",
-          paddingBottom: "2px",
+          gap: "20px",
+          paddingBottom: "20px",
           boxSizing: "border-box",
           flexGrow: 1,
         }}
       >
-        <div style={{ alignItems: "center" }}>
-          <div style={{ alignItems: "center", textAlign: "center" }}>
-            <h1 className="main-title">Our Teams</h1>
-          </div>
+        <div style={{ alignItems: "center", textAlign: "center" }}>
+          <h1 className="main-title">Our Team</h1>
+        </div>
 
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              gap: "15px",
-              flexWrap: "wrap",
-            }}
-          >
-            <div className="team-member" style={{ marginLeft: "30px" }}>
-              <b>
-                <h3 style={{ textAlign: "center" }}>Chief Executive Officer</h3>
-              </b>
-              <img
-                src={hasbee}
-                alt="CEO"
-                style={{ width: "300px", height: "400px", borderRadius: "2%" }}
-              />
-              <h2 style={{ textAlign: "center" }}> Hasby Ilman Hafid</h2>
-              <p style={{ textAlign: "center" }}>
-                "Customer satisfaction is our ultimate happiness."
-              </p>
-            </div>
-            <div className="team-member" style={{ marginLeft: "30px" }}>
-              <b>
-                <h3 style={{ textAlign: "center" }}>Chief Operating Officer</h3>
-              </b>
-              <img
-                src={rifandi}
-                alt="COO"
-                style={{ width: "300px", height: "400px", borderRadius: "2%" }}
-              />
-              <h2 style={{ textAlign: "center" }}>Rifandi Annas S</h2>
-              <p style={{ textAlign: "center" }}>
-                <br />
-                Always improving and innovating are the things that
-                <br />
-                are most considered in our company."
-              </p>
-            </div>
-            <div className="team-member" style={{ marginLeft: "30px" }}>
-              <b>
-                <h3 style={{ textAlign: "center" }}>Chief Financial Officer</h3>
-              </b>
-              <img
-                src={umam}
-                alt="CFO"
-                style={{ width: "300px", height: "400px", borderRadius: "2%" }}
-              />
-              <p style={{ textAlign: "center" }}>
-                <h2 style={{ textAlign: "center" }}>Munaa Khoirul Umam</h2>
-                "Committed to maintaining customer trust is the main thing."
-              </p>
-            </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            gap: "40px",
+            flexWrap: "wrap",
+            alignContent: "center",
+          }}
+        >
+          <div className="team-member" style={{ textAlign: "center" }}>
+            <b>
+              <p>Chief Executive Officer</p>
+            </b>
+            <img
+              src={hasbee}
+              alt="CEO"
+              style={{
+                width: "300px",
+                height: "400px",
+                borderRadius: "2%",
+                marginBottom: "10px",
+              }}
+            />
+            <h2>Hasby Ilman Hafid</h2>
+            <p>"Customer satisfaction is our ultimate happiness."</p>
+          </div>
+          <div className="team-member" style={{ textAlign: "center" }}>
+            <b>
+              <h3>Chief Operating Officer</h3>
+            </b>
+            <img
+              src={rifandi}
+              alt="COO"
+              style={{
+                width: "300px",
+                height: "400px",
+                borderRadius: "2%",
+                marginBottom: "10px",
+              }}
+            />
+            <h2>Rifandi Annas S</h2>
+            <p>
+              Always improving and innovating <br /> are the things that <br />
+              are most considered in our company."
+            </p>
+          </div>
+          <div className="team-member" style={{ textAlign: "center" }}>
+            <b>
+              <h3>Chief Financial Officer</h3>
+            </b>
+            <img
+              src={umam}
+              alt="CFO"
+              style={{
+                width: "300px",
+                height: "400px",
+                borderRadius: "2%",
+                marginBottom: "10px",
+              }}
+            />
+            <h2>Munaa Khoirul Umam</h2>
+            <p>"Committed to maintaining customer trust is the main thing."</p>
           </div>
         </div>
         <div
@@ -123,7 +131,6 @@ function CompanyTeam() {
               style={{
                 flex: 1,
                 display: "flex",
-
                 justifyContent: "space-between",
                 textAlign: "left",
                 marginTop: "13%",
@@ -149,7 +156,7 @@ function CompanyTeam() {
                 <p>
                   Phone: 0852-1377-1747
                   <br />
-                  Email: suppot@AbadiCharcoal.com
+                  Email: support@AbadiCharcoal.com
                 </p>
               </div>
             </div>

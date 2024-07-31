@@ -1,0 +1,20 @@
+// components/DraggableElement.jsx
+import React from "react";
+
+function DraggableElement() {
+  return (
+    <div
+      className="draggable"
+      style={{
+        width: "100px",
+        height: "100px",
+        backgroundColor: "red",
+        position: "relative",
+      }}
+    >
+      Drag me
+    </div>
+  );
+}
+
+export default DraggableElement;
