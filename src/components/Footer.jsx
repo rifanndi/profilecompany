@@ -41,7 +41,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/darkles"
+                      href="https://www.instagram.com/abadicharcoal/"
                     >
                       Instagram
                     </a>
@@ -50,7 +50,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
+                      href="https://www.facebook.com/abadicharcoal/"
                     >
                       Facebook
                     </a>
@@ -59,7 +59,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://twitter.com/burhankcadag0"
+                      href="https://x.com/abadi_charcoal"
                     >
                       Twitter
                     </a>
@@ -68,7 +68,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
+                      href="https://www.linkedin.com/in/abadi-charcoal/"
                     >
                       Linkedin
                     </a>
@@ -77,7 +77,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.linkedin.com/in/burha\n-kocada%C4%9F-49a3331a5/"
+                      href="https://www.tiktok.com/@abadi.charcoal"
                     >
                       Tik-Tok
                     </a>
