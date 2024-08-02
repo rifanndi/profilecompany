@@ -13,7 +13,7 @@ function CompanyTeam() {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          gap: "20px",
+          gap: "10%",
           paddingBottom: "20px",
           boxSizing: "border-box",
           flexGrow: 1,
@@ -22,19 +22,19 @@ function CompanyTeam() {
         <div style={{ alignItems: "center", textAlign: "center" }}>
           <h1 className="main-title">Our Team</h1>
         </div>
-
         <div
           style={{
             display: "flex",
             justifyContent: "center",
-            gap: "40px",
+            gap: "10px",
+            marginLeft: "1%",
             flexWrap: "wrap",
             alignContent: "center",
           }}
         >
           <div className="team-member" style={{ textAlign: "center" }}>
             <b>
-              <p>Chief Executive Officer</p>
+              <h3>Chief Executive Officer</h3>
             </b>
             <img
               src={hasbee}
@@ -47,8 +47,11 @@ function CompanyTeam() {
               }}
             />
             <h2>Hasby Ilman Hafid</h2>
-            <p>"Customer satisfaction is our ultimate happiness."</p>
+            <p>
+              "Customer satisfaction is <br /> our ultimate happiness."
+            </p>
           </div>
+
           <div className="team-member" style={{ textAlign: "center" }}>
             <b>
               <h3>Chief Operating Officer</h3>
@@ -65,10 +68,12 @@ function CompanyTeam() {
             />
             <h2>Rifandi Annas S</h2>
             <p>
-              Always improving and innovating <br /> are the things that <br />
+              "Always improving and innovating <br />
+              are the things that <br />
               are most considered in our company."
             </p>
           </div>
+
           <div className="team-member" style={{ textAlign: "center" }}>
             <b>
               <h3>Chief Financial Officer</h3>
@@ -84,9 +89,12 @@ function CompanyTeam() {
               }}
             />
             <h2>Munaa Khoirul Umam</h2>
-            <p>"Committed to maintaining customer trust is the main thing."</p>
+            <p>
+              "Committed to maintaining customer <br /> trust is the main
+              thing."
+            </p>
           </div>
-        </div>
+        </div>{" "}
         <div
           className=""
           style={{
