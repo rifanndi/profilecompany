@@ -24,7 +24,7 @@ function Footer() {
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#">suppot@AbadiCharcoal.com</Link>
+                    <Link to="#">info@abadicharcoal.com</Link>
                   </li>
                   <li>
                     <Link to="#"></Link>

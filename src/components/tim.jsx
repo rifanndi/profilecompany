@@ -164,7 +164,7 @@ function CompanyTeam() {
                 <p>
                   Phone: 0852-1377-1747
                   <br />
-                  Email: support@AbadiCharcoal.com
+                  Email: info@abadicharcoal.com
                 </p>
               </div>
             </div>
