@@ -66,7 +66,7 @@ function CompanyTeam() {
                 marginBottom: "10px",
               }}
             />
-            <h2>Rifandi Annas S</h2>
+            <h2>Rifandi Annas Shahruri</h2>
             <p>
               "Always improving and innovating <br />
               are the things that <br />
