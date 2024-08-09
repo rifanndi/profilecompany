@@ -76,7 +76,7 @@ function CompanyTeam() {
 
           <div className="team-member" style={{ textAlign: "center" }}>
             <b>
-              <h3>Chief Financial Officer</h3>
+              <h3>Chief Marketing Officer</h3>
             </b>
             <img
               src={umam}
