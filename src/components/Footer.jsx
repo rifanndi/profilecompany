@@ -68,7 +68,7 @@ function Footer() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://www.linkedin.com/in/abadi-charcoal/"
+                      href="https://www.linkedin.com/company/abadi-charcoal/"
                     >
                       Linkedin
                     </a>
