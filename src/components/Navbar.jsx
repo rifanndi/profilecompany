@@ -82,10 +82,16 @@ function Navbar() {
             <li>
               <a
                 href="https://wa.me/message/UMI6N67AOAQIJ1"
-                target="_blank" // Open link in a new tab
-                rel="noopener noreferrer" // Security best practice for target="_blank" links
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Contact us
+              </a>
+            </li>
+            {/* New Catalog Button */}
+            <li>
+              <a href="/catalog" target="_blank" rel="noopener noreferrer">
+                Catalog
               </a>
             </li>
           </ul>
