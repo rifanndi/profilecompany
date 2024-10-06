@@ -1,0 +1,5 @@
+{
+  "routes": [
+    { "src": "/catalog", "dest": "/" } // Rute ini harus diarahkan dengan benar
+  ]
+}
