@@ -1,10 +1,29 @@
 import React from "react";
+import { Helmet } from "react-helmet-async"; // Untuk metadata SEO
 import Navbar2 from "./Nafbar2";
 
 const Lizard1 = () => {
   return (
     <div>
+      {/* Metadata untuk SEO */}
+      <Helmet>
+        <title>Why Coconut Charcoal Briquette? | Abadi Charcoal</title>
+        <meta
+          name="description"
+          content="Discover why coconut charcoal briquettes are efficient, smokeless, sustainable, and cost-effective. Abadi Charcoal provides high-quality briquettes for grilling and cooking."
+        />
+        <meta
+          name="keywords"
+          content="Coconut charcoal briquette, smokeless charcoal, sustainable energy, Abadi Charcoal, efficient grilling fuel"
+        />
+        <link
+          rel="canonical"
+          href="https://www.abadicharcoal.com/abadicharcoal-Charcoal-Briquette"
+        />
+      </Helmet>
+
       <Navbar2 />
+
       <div style={styles.container}>
         <h1 style={styles.title}>Why Coconut Charcoal Briquette?</h1>
         <ol style={styles.list}>
@@ -52,9 +71,10 @@ const Lizard1 = () => {
   );
 };
 
+// Gaya ditingkatkan untuk responsivitas dan aksesibilitas
 const styles = {
   container: {
-    width: "100vh",
+    width: "90%", // Menjadikan lebih responsif
     maxWidth: "800px",
     margin: "80px auto 0", // Menambahkan margin atas untuk memisahkan dari navbar
     padding: "20px",
@@ -66,14 +86,19 @@ const styles = {
     textAlign: "center",
     marginBottom: "20px",
     fontSize: "2em",
+    color: "#2c3e50",
   },
-  subtitle: {
-    marginTop: "20px",
-    marginBottom: "10px",
-    fontSize: "1.5em",
+  list: {
+    listStyleType: "decimal",
+    paddingLeft: "20px",
+  },
+  listItem: {
+    marginBottom: "15px",
+    fontSize: "1.1em",
   },
   paragraph: {
-    marginBottom: "15px",
+    marginTop: "20px",
+    textAlign: "justify",
   },
 };
 
