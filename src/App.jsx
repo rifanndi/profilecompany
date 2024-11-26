@@ -11,9 +11,12 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/lizard1" element={<Lizard1 />} />
-        <Route path="/lizard2" element={<Lizard2 />} />
-        <Route path="/lizard3" element={<Lizard3 />} />
+        <Route path="/abadicharcoal-Charcoal-Briquette" element={<Lizard1 />} />
+        <Route
+          path="/abadicharcoal-ndonesia-Coconut-Charcoal-Briquette"
+          element={<Lizard2 />}
+        />
+        <Route path="abadicharcoal-Lump-Charcoal" element={<Lizard3 />} />
       </Routes>
       <Footer />
     </Router>
